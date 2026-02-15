@@ -15,6 +15,8 @@
 # package).
 
 from grin.lexing import *
+from grin.interpreting import *
 from grin.location import *
 from grin.parsing import *
+from grin.runtime import *
 from grin.token import *

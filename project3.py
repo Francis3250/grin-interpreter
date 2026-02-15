@@ -14,7 +14,10 @@ import grin
 
 
 def main() -> None:
-    pass
+    try:
+        grin.run_interpreter()
+    except (grin.GrinLexError, grin.GrinParseError, grin.GrinRuntimeError) as e:
+        print(e)
 
 
 if __name__ == '__main__':
