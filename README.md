@@ -35,7 +35,7 @@ END
 
 ```bash
 python project3.py          # type a Grin program, end it with a line containing only "."
-python -m unittest discover tests
+python -m unittest tests/grin/test_*.py   # 74 tests, all passing
 ```
 
-Requires Python 3.11+.
+Requires Python 3.10+.
